@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+.header {
+ background-color: rgb(196, 203, 218);
+ height: 100px;
+ padding-top: 10px;
+}
+.header-logo {
+  float:left;
+  padding-left: 25px;
+}
+.header-logo h2 {
+ color: white;
+ line-height: 45px;
+ margin-right: 40px;
+}
+.header-list {
+  float:right;
+  
+}
+.header-list a {
+  float:left;
+  margin-top: 25px;
+  margin-right: 30px;
+  color: white;
+}
+.instagram,.twitter,.youtube {
+  color: white;
+  padding: 5px 4px;
+  border-radius: 4px;
+  transition: all 0.7s;
+  margin-left: 100px;
+}
+.instagram {
+background-color: rgb(196, 203, 218);
+}
+.twitter {
+ background-color:rgb(196, 203, 218);
+}
+.youtube {
+ background-color:rgb(196, 203, 218);
+}
+.instagram:hover,.twitter:hover,.youtube:hover {
+  background-color: silver;
+}
+.top-wrapper {
+  background-image: url(/Users/ishikawataichi/Desktop/プログラミングサンプル画像/福大七隈.JPG);
+  background-size: cover;
+  height: 550px;
+  text-align: center;
+  padding: 30px;
+  line-height: 370px;
+}
+.top-wrapper h1 {
+  color: rgba(37, 37, 37, 0.68);
+  letter-spacing: 9px;
+  font-size: 120px;
+}
+.message-wrapper {
+ text-align: center;
+ background-color:  rgb(238, 237, 236);
+ padding: 10px;
+ height: 720px;
+}
+.introduction {
+  margin-bottom: 80px;
+}
+section-name {
+  letter-spacing: 6px;
+}
+span {
+  font-weight: bold;
+  color: rgb(163, 161, 158);
+}
+
+.sns-icon {
+ text-align: center;
+}
+.sns-icon img {
+  height: 30px;
+  margin-right: 20px;
+}
+.message-icon {
+  margin-top: 60px;
+  text-align: center;
+  float: left;
+  width: 50%;
+}
+.section-title p {
+  text-align: center;
+}
+.footer {
+  background-color: rgb(196, 203, 218);
+  height: 100px;
+  padding-top: 10px;
+}
+.footer-logo {
+  color: white;
+  float: left;
+  padding-left: 25px;
+}
